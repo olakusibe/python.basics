@@ -11,3 +11,11 @@ theBoolean = True
 
 print(theNumber)
 print(theBoolean)
+
+# the type() function will tell us the data type of the variables
+print(type(varibale_name_1))
+print(type(varibale_name_2))
+print(type(theNumber))
+print(type(theBoolean))
+
+# everything in oythn is an object
