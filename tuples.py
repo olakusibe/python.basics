@@ -1,3 +1,4 @@
+# tuples are denoted by ()
 # the difference between list and tuples is that tuples are immutable
 # while list are mutable, meaning for tuples you can't append to it
 
