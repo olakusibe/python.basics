@@ -14,3 +14,10 @@ print((type(beatles_mixed)))
 
 for member in beatles:
     print(member.lower()) # print it in lower case
+
+
+# append item to an existing list
+beatles.append("Pete")
+
+for member in beatles:
+    print(member.upper()) # print it in upper case
