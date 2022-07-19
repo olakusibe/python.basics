@@ -1,5 +1,6 @@
 # list are know as arrays and you can mix different data types in a list
 # list is denoted by []
+# list index start from 0
 
 beatles = ["Paul", "John", "George", "Ringo"]
 beatles_mixed = ["Paul", "John", "George", "Ringo", 1, True] # mixing different data type in a list
@@ -21,3 +22,7 @@ beatles.append("Pete")
 
 for member in beatles:
     print(member.upper()) # print it in upper case
+
+# you can use negative number/index to access the list backwards
+print(beatles[-1]) # print the last item => Pete
+print(beatles[-2]) # print second to the last item => Ringo

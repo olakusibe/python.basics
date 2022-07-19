@@ -4,14 +4,14 @@
 
 class Person():
 
-    # instance values are specified at the contructor level, after self parameter
+    # instance values are specified at the contructor level, after the 'self' parameter
     # though some types may be parameter-less
-    # this is the constructor, also self is passed here
+    # this is the constructor, 'self' is passed here
     def __init__(self, name, country):
         self.name = name
         self.country = country
 
-    # this is a function/method defined in a class, and self is passed into it, to have access to the instance values
+    # this is a function/method defined in a class, and 'self' is passed into it, to have access to the instance values
     def sing(self): 
          print(self.name + " sings")
 

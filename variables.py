@@ -4,7 +4,7 @@ varibale_name_2 = 'Hello World! again' # string variable using single qoute
 print(varibale_name_1)
 print(varibale_name_2)
 
-# there are other data types, whic are infered by their value 
+# there are other data types, which are infered by their value 
 
 theNumber = 1
 theBoolean = True
@@ -18,4 +18,4 @@ print(type(varibale_name_2))
 print(type(theNumber))
 print(type(theBoolean))
 
-# everything in oythn is an object
+# everything in python is an object

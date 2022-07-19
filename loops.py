@@ -6,7 +6,7 @@ for member in beatles:
 
 
 # a while loop
-count = 1
-while count <= 4:
-    print(beatles)
-    count = count + 1
+indx = 0
+while indx < len(beatles): # len() function returns the number of items in the list
+    print(beatles[indx])
+    indx += 1

@@ -1,9 +1,9 @@
 # dictionaries are denoted by {}
-# it makes have key-value pairs possible
+# it makes having key-value pairs possible
 # keys should be unique
 
 beatles = {
-    "key":0, # here 0 is the value, an that's the syntax structure for a dicitonary
+    "key":0, # here 0 is the value, an that's the syntax/structure for a dicitonary
     "Paul":1,
     "John":2,
     "George":3,

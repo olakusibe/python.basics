@@ -4,7 +4,7 @@
 def sayHello():
     print("Hello")
 
-sayHello()
+sayHello() # execute the function
 
 # function with parameter (non concrete data type specified)
 def sayHello_2(name):
@@ -19,7 +19,7 @@ def sayHello_3(name):
 
 sayHello_3("Tim")
 # sayHello_3(1) # an error (TypeError) because of data type mismatch, cannot concatenate str and int data type
-sayHello_3("1")
+sayHello_3("1") # works, since it has been stringify
 
 # function with parameter (non concrete data type specified)
 def sayHello_4(name):
@@ -44,10 +44,19 @@ print(type(result)) # NoneType (beacse sayHello() function is retuning nothing)
 print(result) # None
 
 
-# function with parameter (concrete data type specified) and retuns a string data type
+# function with parameter (concrete data type specified) and retuns an implicit data type (suince it is not specified)
 def sayHello_6(name : str): # expect parameter value to be a string datat type
     return "My name is " + name
 
 result_1 = sayHello_6("Tim")
 print(type(result_1)) # <class, 'str'>
 print(result_1) # My name is Tim
+
+
+# function with parameter (concrete data type specified) and retuns an explicit data type specified
+def sayHello_7(name : str) -> str: # expect parameter value to be a string data type and its return data type to be string too
+    return "My name is " + name
+
+result_2 = sayHello_7("John")
+print(type(result_2)) # <class, 'str'>
+print(result_2) # My name is John
